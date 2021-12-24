@@ -38,7 +38,7 @@ where
 
 import Control.Monad.Plus
 import Data.Aeson
-import qualified Data.HashMap.Strict as HashMap
+import qualified Data.Aeson.KeyMap as HashMap
 
 data SibeliusScore = SibeliusScore
   { scoreTitle :: String,
