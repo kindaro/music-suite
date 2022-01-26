@@ -18,6 +18,7 @@ extra-source-files:     README.md,
                         examples/*.hs,
                         data/*.ly
                         data/*.csv
+                        test/musicxml/*.xml
 
 source-repository head
     type:             	git
