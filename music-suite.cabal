@@ -26,7 +26,7 @@ source-repository head
 library
     build-depends:
                         base,
-                        aeson,
+                        aeson >= 1.5 && < 2,
                         aeson-pretty,
                         average,
                         base-orphans,
